@@ -1,0 +1,61 @@
+
+First Create Repository on Git account releative to project name:
+Be ready with repository URL
+and credential of git account
+
+---------------------------------------------------------------------
+
+ACTUAL COMMANDS ON SHELL STARTS
+
+WITH THIS COMMAND YOU CAN  MOVE LOCAL DIRECTORY CODE TO GIT REPOSITORY.
+
+Open git bash shell 
+
+Neosoft@PAT-R2P12 MINGW64 /e/sachin_client (master)
+$ git init
+Initialized empty Git repository in E:/sachin_client/.git/
+
+Neosoft@PAT-R2P12 MINGW64 /e/sachin_client (master)
+$ git remote add origin https://github.com/sharad2626/starconsults.git
+
+
+$ git add theme_backup_29_june_2016/
+
+$ git commit -m "june backup 2016"
+
+$ git push origin master
+
+After this commnds it asks Git username and password after that it starts uploading on git server.
+
+
+ACTUAL COMMANDS ON SHELL ENDS
+
+
+------------------------------------------------------------------------------------------
+
+Commands in general:-
+
+
+
+// if remote origin is not added
+git init
+git remote add origin GIT_URL
+git add dirPath
+git commit -m "message"
+git push origin master
+
+
+// if remote origin already added
+git add dirPath
+git commit -m "message"
+git push origin master
+
+
+// git pull
+git init
+git clone gitURL
+
+Ask Sanket Tommrrow How to pull code from git repository
+
+Also Learn how to add multiple member which will work on single repository.
+There each copy needs to be maintained.
