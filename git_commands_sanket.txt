@@ -1,4 +1,9 @@
 
+
+changing in branch other content from master branch  
+
+------------------------------------------------------------------------
+
 First Create Repository on Git account releative to project name:
 Be ready with repository URL
 and credential of git account
