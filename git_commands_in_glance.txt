@@ -16,3 +16,6 @@ git commit -m "commands for moving directory from local to git server"
 git push origin master
 
 ---------------------------
+
+ git clone https://github.com/sharadkneo/hello-world/
+
